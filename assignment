@@ -1,0 +1,22 @@
+1 problem
+-------------
+book1=499.00
+book2=855.00
+book3=645.00
+delivary=250.00
+b1=int(input("enter no of book1: "))
+b2=int(input("enter no of book2: "))
+b3=int(input("enter no of book3: "))
+total=(float)(b1*book1 + b2*book2 +b3*book3)
+gst=(float)(total*(12/100))
+price=total+gst+delivary
+print("total purchase charge: ",price)
+
+ 2nd problem
+ ---------------
+ a=input("enter word: ")
+ b=a.lower()
+ c=list(b)
+ d=set(c)
+ e=list(d)
+ print(",".join(e))
